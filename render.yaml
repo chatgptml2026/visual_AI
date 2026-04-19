@@ -3,5 +3,7 @@ services:
     name: accessible-navigation-backend
     env: node
     plan: free
+    rootDir: backend
+    buildCommand: "npm install"
     startCommand: "node backend/server.js"
     autoDeploy: true
