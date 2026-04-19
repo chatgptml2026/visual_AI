@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: accessible-navigation-backend
+    env: node
+    plan: free
+    startCommand: "node backend/server.js"
+    autoDeploy: true
