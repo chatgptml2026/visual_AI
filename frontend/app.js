@@ -1,6 +1,6 @@
 const BASE_URL = window.location.hostname.includes("localhost")
   ? "http://localhost:5000"
-  : "https://your-backend-url.onrender.com";
+  : "https://accessible-navigation-backend.onrender.com";
 
 let map, marker, routeLine, destinationText = "";
 let model;
